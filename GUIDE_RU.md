@@ -260,5 +260,57 @@ git push --follow-tags
 
 ---
 
+## Часть 9. Оформление репозитория на GitHub (после первого push)
+
+Код уже оформлен максимально. Осталось 5 минут кликов на сайте — это сильно
+повышает доверие и количество звёзд.
+
+### 1. Описание и темы (кнопка ⚙️ About справа на странице репо)
+
+- **Description:**
+  `Save your working state once — every AI coding agent picks it up instantly`
+- **Website:** `https://www.npmjs.com/package/handoff-context` (после публикации в npm)
+- **Topics** (ввести через запятую):
+  `ai-agents, agents-md, claude-code, cursor, github-copilot, codex, llm, cli, developer-tools, context-management`
+
+### 2. Социальный баннер
+
+`Settings → General → Social preview → Edit → Upload an image` →
+загрузи файл `assets/social-preview.png` из репозитория.
+Именно эту картинку видно, когда ссылкой на репозиторий делятся в Telegram/X.
+
+### 3. Первый релиз
+
+`Releases → Create a new release → Choose a tag → Create new tag: v0.1.0`
+→ Title: `v0.1.0 — first release` → кнопка **Generate release notes**
+→ **Publish release**. Тег уже есть в git: `git push origin v0.1.0`
+(или создай прямо на сайте — GitHub сам предложит).
+
+### 4. Включить Discussions (необязательно, но живо)
+
+`Settings → General → Features → ✅ Discussions` — там будут вопросы
+пользователей, не засоряя Issues.
+
+### 5. Закрепить репозиторий у себя в профиле
+
+Профиль → **Customize your pins** → выбери `handoff`.
+
+---
+
+## Часть 10. Продвижение (откуда придут первые звёзды)
+
+1. **Ответь в обсуждении**, где просили такой инструмент:
+   github.com/orgs/community → поиск «context between AI tools» — напиши, что
+   собрал решение, приложи ссылку.
+2. **Пост на dev.to** (англ.) и **Хабр** (рус.): заголовок в духе
+   «AI-агенты забывают всё при переключении — я сделал handoff».
+   Расскажи историю с багом в git-парсере — такое любят.
+3. **Reddit**: r/programming, r/ChatGPTCoding, r/commandline.
+4. **PR в awesome-списки**: awesome-mcp-servers и списки про AGENTS.md.
+5. **X/Twitter**: скринкаст `handoff save` → открытие Claude Code, где он
+   «всё помнит». 30 секунд видео продают лучше текста.
+
+---
+
 Остались вопросы — просто спроси: «объясни, что делает команда X» или
 «почему команда Y выдала ошибку Z» (пришли вывод целиком).
