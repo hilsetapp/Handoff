@@ -126,48 +126,23 @@ handoff archive           # снапшот уедет в .handoff/archive/
 
 ---
 
-## Часть 4. Выложить проект на GitHub (пошагово)
+## Часть 4. Проект на GitHub (✅ уже сделано)
 
-### Шаг 1. Создай пустой репозиторий
+Всё из этой части уже выполнено:
 
-1. Зайди на https://github.com/new
-2. Repository name: `handoff`
-3. Оставь **Public**
-4. **НЕ ставь** галочки «Add a README», «Add .gitignore», «License» —
-   у тебя это всё уже есть локально
-5. Нажми **Create repository**
+- ✅ Репозиторий создан: **https://github.com/hilsetapp/handoff**
+- ✅ Все ссылки в проекте ведут на твой репозиторий (ник `hilsetapp` подставлен везде)
+- ✅ Git настроен: `remote origin` указывает на твой репозиторий, автор коммитов — `hilsetapp`
 
-### Шаг 2. Замени заглушку `yourname` на свой логин
+Код отправляется на GitHub так: я запрашиваю одноразовый код → ты открываешь
+ссылку и вводишь его → нажимаешь Authorize → я выполняю `git push`.
+Пароли и токены руками вводить не нужно.
 
-В коде и документах встречается `yourname` — это нужно заменить на свой
-GitHub-логин одной командой:
-
-```bash
-cd /home/user/handoff
-# замени ТВОЙ_ЛОГИН на свой ник на GitHub (3 раза в команде ниже!)
-grep -rl "yourname" . --exclude-dir=.git --exclude-dir=node_modules --exclude-dir=dist \
-  | xargs sed -i 's|yourname|ТВОЙ_ЛОГИН|g'
-npm run build   # пересобрать после правки исходников
-```
-
-### Шаг 3. Отправь код
-
-GitHub после создания покажет подсказку «push an existing repository». Суть:
-
-```bash
-cd /home/user/handoff
-git remote add origin https://github.com/ТВОЙ_ЛОГИН/handoff.git
-git add -A && git commit -m "docs: русская версия README и гайд"
-git branch -M main
-git push -u origin main
-```
-
-GitHub спросит логин/пароль → пароль НЕ подойдёт, нужен **Personal Access Token**:
+Если когда-нибудь захочешь пушить **со своего компьютера**, понадобится
+Personal Access Token:
 `Settings → Developer settings → Personal access tokens → Tokens (classic) →
-Generate new token` → отметь галочку `repo` → скопируй токен и вставь его вместо
-пароля. (Или используй GitHub CLI: `gh auth login` — он всё сделает через браузер.)
-
-✅ Готово — проект на GitHub. Обнови страницу и полюбуйся.
+Generate new token` → галочки `repo` и `workflow` → вставь токен вместо пароля.
+(Или GitHub CLI: `gh auth login` — сделает всё через браузер.)
 
 ---
 

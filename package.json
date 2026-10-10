@@ -20,7 +20,7 @@
     "llm",
     "cli"
   ],
-  "author": "",
+  "author": "hilsetapp",
   "license": "MIT",
   "description": "Portable session context for AI coding agents. Save your working state once — every agent (Claude Code, Codex, Cursor, Copilot, Gemini CLI) picks it up instantly.",
   "type": "module",
@@ -45,10 +45,10 @@
   "types": "dist/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yourname/handoff.git"
+    "url": "git+https://github.com/hilsetapp/handoff.git"
   },
-  "homepage": "https://github.com/yourname/handoff#readme",
+  "homepage": "https://github.com/hilsetapp/handoff#readme",
   "bugs": {
-    "url": "https://github.com/yourname/handoff/issues"
+    "url": "https://github.com/hilsetapp/handoff/issues"
   }
 }

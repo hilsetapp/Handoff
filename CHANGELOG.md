@@ -21,4 +21,4 @@ Initial release.
 - `handoff archive` — session close-out with history in `.handoff/archive/`
 - Russian documentation (`README.ru.md`) and step-by-step guide (`GUIDE_RU.md`)
 
-[0.1.0]: https://github.com/yourname/handoff/releases/tag/v0.1.0
+[0.1.0]: https://github.com/hilsetapp/handoff/releases/tag/v0.1.0

@@ -5,7 +5,7 @@ Thanks for considering a contribution! This project is intentionally small and w
 ## Development setup
 
 ```bash
-git clone https://github.com/yourname/handoff.git
+git clone https://github.com/hilsetapp/handoff.git
 cd handoff
 npm install
 npm run build        # compile to dist/

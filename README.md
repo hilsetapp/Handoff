@@ -16,7 +16,7 @@
 
 <p align="center">
   <a href="https://www.npmjs.com/package/handoff-context"><img src="https://img.shields.io/npm/v/handoff-context?color=4F46E5&label=npm" alt="npm version"></a>
-  <a href="https://github.com/yourname/handoff/actions/workflows/ci.yml"><img src="https://github.com/yourname/handoff/actions/workflows/ci.yml/badge.svg" alt="CI"></a>
+  <a href="https://github.com/hilsetapp/handoff/actions/workflows/ci.yml"><img src="https://github.com/hilsetapp/handoff/actions/workflows/ci.yml/badge.svg" alt="CI"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue" alt="license: MIT"></a>
   <img src="https://img.shields.io/badge/node-%E2%89%A518-339933" alt="node >= 18">
   <a href="CONTRIBUTING.md"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen" alt="PRs welcome"></a>
