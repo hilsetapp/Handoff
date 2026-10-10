@@ -1,0 +1,54 @@
+{
+  "name": "handoff-context",
+  "version": "0.1.0",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "typecheck": "tsc --noEmit -p tsconfig.json",
+    "test": "vitest run",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "ai-agents",
+    "agents-md",
+    "claude-code",
+    "cursor",
+    "copilot",
+    "codex",
+    "developer-tools",
+    "context",
+    "llm",
+    "cli"
+  ],
+  "author": "",
+  "license": "MIT",
+  "description": "Portable session context for AI coding agents. Save your working state once — every agent (Claude Code, Codex, Cursor, Copilot, Gemini CLI) picks it up instantly.",
+  "type": "module",
+  "dependencies": {
+    "commander": "^14.0.3",
+    "picocolors": "^1.1.1"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.5",
+    "typescript": "^7.0.2",
+    "vitest": "^4.1.11"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "bin": {
+    "handoff": "dist/cli.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "types": "dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourname/handoff.git"
+  },
+  "homepage": "https://github.com/yourname/handoff#readme",
+  "bugs": {
+    "url": "https://github.com/yourname/handoff/issues"
+  }
+}
