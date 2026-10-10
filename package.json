@@ -25,13 +25,13 @@
   "description": "Portable session context for AI coding agents. Save your working state once — every agent (Claude Code, Codex, Cursor, Copilot, Gemini CLI) picks it up instantly.",
   "type": "module",
   "dependencies": {
-    "commander": "^14.0.3",
+    "commander": "^12.1.0",
     "picocolors": "^1.1.1"
   },
   "devDependencies": {
     "@types/node": "^26.6.5",
-    "typescript": "^7.0.2",
-    "vitest": "^4.1.11"
+    "typescript": "^5.9.3",
+    "vitest": "^3.2.4"
   },
   "engines": {
     "node": ">=18"
