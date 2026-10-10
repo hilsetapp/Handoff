@@ -1,5 +1,7 @@
 # handoff
 
+**English** | [Русский](README.ru.md)
+
 **Portable session context for AI coding agents.**
 
 Save your working state once — Claude Code, Codex, Cursor, Copilot, Gemini CLI and every other agent picks it up instantly. No more re-explaining your decisions. No more agents retrying approaches you already ruled out.
