@@ -131,7 +131,7 @@ Now open *any* agent — it reads the file and continues exactly where the previ
 - **Plain files, plain git.** `.handoff/` is JSON + Markdown. Commit it to share context with your team (and their agents), or `.gitignore` it to stay local — your choice.
 - **Zero telemetry, two dependencies** (`commander`, `picocolors`). Reads only your repo.
 
-Works with any agent that can read a Markdown file — which is all of them. Sync targets are just conveniences that put the pointer where each tool looks automatically.
+Works with any agent that can read a Markdown file - which is all of them. Sync targets are just conveniences that put the pointer where each tool looks automatically.
 
 ## Roadmap
 
@@ -143,7 +143,7 @@ Works with any agent that can read a Markdown file — which is all of them. Syn
 
 ## Contributing
 
-Issues and PRs are welcome — see [CONTRIBUTING.md](CONTRIBUTING.md). Good first contributions: new sync targets, better test-tail summarization, translations of the generated file.
+Issues and PRs are welcome - see [CONTRIBUTING.md](CONTRIBUTING.md). Good first contributions: new sync targets, better test-tail summarization, translations of the generated file.
 
 If `handoff` saved you from re-explaining your project to an agent — **star the repo** ⭐ and tell a friend.
 
