@@ -45,10 +45,10 @@
   "types": "dist/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hilsetapp/handoff.git"
+    "url": "git+https://github.com/hilsetapp/Handoff.git"
   },
-  "homepage": "https://github.com/hilsetapp/handoff#readme",
+  "homepage": "https://github.com/hilsetapp/Handoff#readme",
   "bugs": {
-    "url": "https://github.com/hilsetapp/handoff/issues"
+    "url": "https://github.com/hilsetapp/Handoff/issues"
   }
 }

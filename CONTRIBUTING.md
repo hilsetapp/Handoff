@@ -1,11 +1,11 @@
 # Contributing to handoff
 
-Thanks for considering a contribution! This project is intentionally small and well-tested — let's keep it that way.
+Thanks for considering a contribution! This project is intentionally small and well-tested - let's keep it that way.
 
 ## Development setup
 
 ```bash
-git clone https://github.com/hilsetapp/handoff.git
+git clone https://github.com/hilsetapp/Handoff.git
 cd handoff
 npm install
 npm run build        # compile to dist/
@@ -24,7 +24,7 @@ node /path/to/handoff/dist/cli.js init
 ## Ground rules
 
 - **Two runtime dependencies is a feature.** Think hard before adding a third.
-- **Pure functions where possible.** `parsePorcelain`, `buildMarkdown`, `upsertManagedBlock` are pure and unit-tested — keep new logic testable the same way.
+- **Pure functions where possible.** `parsePorcelain`, `buildMarkdown`, `upsertManagedBlock` are pure and unit-tested - keep new logic testable the same way.
 - **Never destroy user files.** Anything `handoff` writes outside `.handoff/` must be inside managed `<!-- handoff:start/end -->` markers or files handoff fully owns.
 - **Node >= 18**, strict TypeScript, ESM.
 

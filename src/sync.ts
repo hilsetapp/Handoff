@@ -7,7 +7,7 @@ const END = '<!-- handoff:end -->';
 export const SYNC_BLOCK = `${START}
 ## Live session context
 
-This repository uses [handoff](https://github.com/hilsetapp/handoff).
+This repository uses [handoff](https://github.com/hilsetapp/Handoff).
 **At the start of every session, read \`.handoff/HANDOFF.md\` before doing anything else.**
 It contains the current working state: open next steps, decisions made,
 failed approaches (do not retry them) and latest test status.

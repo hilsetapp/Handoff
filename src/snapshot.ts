@@ -6,7 +6,7 @@ import { fingerprint, getGitState } from './git.js';
 import { loadNotes } from './notes.js';
 import type { Environment, HandoffConfig, Snapshot, TestResult } from './types.js';
 
-export const REPO_URL = 'https://github.com/hilsetapp/handoff';
+export const REPO_URL = 'https://github.com/hilsetapp/Handoff';
 
 export function detectEnvironment(cwd: string): Environment {
   return {

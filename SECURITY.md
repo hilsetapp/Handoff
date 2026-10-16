@@ -14,7 +14,7 @@ telemetry and no network access** at runtime.
 
 Please **do not** open a public issue for security reports.
 Instead, use GitHub's private reporting:
-**Security tab → Advisories → Report a vulnerability** —
+**Security tab → Advisories → Report a vulnerability** -
 or contact the maintainer via the email in `package.json`.
 
 You can expect a first response within 72 hours.
